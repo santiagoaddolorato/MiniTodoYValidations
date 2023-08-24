@@ -62,7 +62,7 @@ const input = document.getElementById("input");
 const caja = document.getElementById("caja");
 const btnBorrar = document.getElementById("btn-borrar")
 
-let items = JSON.parse(localStorage.getItem("items")) || ["holi","Pancho"];
+let items = JSON.parse(localStorage.getItem("items")) || [""];
 
 const saveLocal = (items)=>{
     localStorage.setItem("items", JSON.stringify(items));
